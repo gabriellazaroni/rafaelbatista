@@ -1,0 +1,213 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  font-family: Helvetica, sas-serif;
+  color: #111;
+}
+
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2,
+h3 {
+  font-weight: 100;
+}
+
+b {
+  margin-left: 3px;
+}
+
+.container {
+  padding: 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 13rem;
+}
+
+.header-title {
+  font-size: 125px;
+}
+
+.container-img {
+  margin: auto;
+}
+
+.img-rafa {
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.p-bio {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+}
+
+.cv-list {
+  font-size: 0.8rem;
+  list-style: none;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.year {
+  margin-bottom: 5px;
+}
+
+.detail {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.title-cena {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.title-contato {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.galery {
+  display: flex;
+  flex-direction: column;
+}
+
+.galery img {
+  width: 450px;
+  height: 300px;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container-img-2 {
+  line-height: 3;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.h3-img {
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+.p-img {
+  font-size: 0.5rem;
+}
+
+.galery .container-img h3 {
+  display: flex;
+  align-items: start;
+}
+
+.contact {
+  line-height: 1.5;
+}
+
+.contact-p {
+  font-size: 0.9rem;
+}
+
+.contact-list {
+  list-style: none;
+  font-size: 0.8rem;
+  text-align: start;
+}
+
+.contact-list1 {
+  list-style: none;
+  font-size: 0.8rem;
+  text-align: start;
+  text-align: center;
+}
+
+.top a {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.linktree {
+  /* text-decoration: none; */
+  color: #000;
+}
+
+.insta {
+  /* text-decoration: none; */
+  color: #000;
+}
+
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #b2b2b2;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 20px;
+    gap: 9rem;
+    margin-top: 70px;
+  }
+
+  .header-title {
+    font-size: 80px;
+    margin: 0 auto;
+  }
+
+  .header {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .img-rafa {
+    width: 250px;
+    height: 170px;
+  }
+  .contact-list1 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .footer {
+    font-size: 0.7rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .container-img {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .galery img {
+    width: 100%;
+    height: 100%;
+  }
+}
