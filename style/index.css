@@ -207,3 +207,9 @@ h3 {
     height: 100%;
   }
 }
+
+@media (max-width: 800px) {
+  .top {
+    margin-top: 100px;
+  }
+}
